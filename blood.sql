@@ -120,8 +120,6 @@ select bd_name,donate_quantity from blood_donor where donate_quantity>0.5;
 
 select max(b_price) from blood_stock where bb_id='2';
 
-select 
-
 /*create a view containing patient name,city,bloodgroup from patient*/
 
 create view PO as select p_name,p_city,p_bloodgroup from patient;
